@@ -1,0 +1,47 @@
+h1{
+    font-size: 60px;
+}
+h2{
+    font-size: 40px;
+}
+h3{
+    font-size: 30px;
+}
+h4{
+    font-size: 24px;
+}
+p{
+    font-size: 18px;
+}
+.bg-0a44ab{
+    background: #0a44ab;
+}
+.color-0a44ab{
+    color: #0a44ab;
+}
+.color-151515{
+    color: #151515;
+}
+.color-777777{
+    color: #777777;
+}
+.margin-bottom-20{
+    margin-bottom: 20px;
+}
+@font-face {
+    font-family: HelveticaNeue;
+    src: url("../fonts/HelveticaNeue.ttf");
+}
+@font-face {
+    font-family: HelveticaNeueBold;
+    src: url("../fonts/HelveticaNeueBold.ttf");
+}
+@font-face {
+    font-family: HelveticaNeueLight;
+    src: url("../fonts/HelveticaNeueLight.ttf");
+}
+@font-face {
+    font-family: BarokahBold;
+    src: url("../fonts/BarokahBold.ttf");
+}
+

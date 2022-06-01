@@ -1,0 +1,315 @@
+@media screen and (max-width: 1550px){
+    .wrapper{
+        padding: 0 15px;   
+    }
+    .banner-left-sec{
+        padding-left: 15px;
+    }
+    .banner-right-con{
+        padding-right: 15px;
+    }
+    .services-form-con button{
+        padding: 15px 60px;
+    }
+    .main-footer-sec {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+    .main-banner-con {
+        height: 700px;
+    }
+    .banner-heading{
+        top: 35%;
+    }
+    .services-info:after {
+        content: "";
+        bottom: -164px;
+        right: 0;
+        position: absolute;
+        background: url(../images/services-after-img.png) no-repeat;
+        width: 400px;
+        height: 560px;
+        background-size: contain;
+    }
+    .bold-sec{
+        padding: 18px 60px 18px 20px;
+    }
+    .bold-sec h5{
+        font-size: 38px;
+    }
+    .bold-sec h6{
+        font-size: 16px;
+    }
+    .services-info h4{
+        padding-left: 20px;
+    }
+    .contact span{
+        font-size: 20px;
+    }
+    .main-services-sec{
+        margin-bottom: 51px;
+    }
+}
+@media screen and (max-width: 1199px){
+    .wrapper {
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+    .banner-heading h1{
+        font-size: 50px;
+    }
+    .banner-heading{
+        width: 860px;
+    }
+    .banner-heading p{
+        font-size: 24px;
+    }
+    .google-font-heading{
+        padding: 36px 40px;
+        margin-top: -210px;
+    }
+    .google-font-heading form input:last-child{
+        font-size: 20px;
+    }
+    .google-font-heading form input:first-child {
+        width: 80%;
+        padding: 18px 20px 21px 20px;
+    }
+    .main-google-font-sec {
+        padding-bottom: 100px;
+    }
+    .services-form-con button {
+        padding: 10px 40px;
+    }
+    .services-info:after {
+        content: "";
+        bottom: -51px;
+        right: 0;
+        position: absolute;
+        background: url(../images/services-after-img.png) no-repeat;
+        width: 300px;
+        height: 336px;
+        background-size: contain;
+    }
+    .contact{
+        margin-bottom: 10px;
+    }
+    .bold-sec{
+        margin-bottom: 10px;
+    }
+    .services-info{
+        padding-top: 0;
+    }
+    .main-services-sec{
+        padding-bottom: 50px;
+    }
+    .main-services-sec {
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 991px){
+    .services-heading h2{
+        margin-bottom: 20px;
+    }
+    .google-font-heading form input:last-child{
+        width: 25%;
+    }
+    .google-font-heading form input:first-child{
+        width: 75%;
+    }
+    .banner-heading {
+        top: 30%;
+        width: 652px;
+    }
+    .services-info h4{
+        font-size: 22px;
+    }
+    .services-form-con p{
+        width: 100%;
+    }
+    .services-form-con button{
+        margin-top: 10px;
+    }
+    body > div.main-header.float-left.w-100 > div > div.row > div.col-lg-3{
+        order: 2;
+    }
+    body > div.main-header.float-left.w-100 > div > div.row > div.col-lg-9{
+        order: 1;
+    }
+    .banner-left-sec > a {
+        text-align: center;
+    }
+    .banner-right-con div:first-child span{
+        margin-right: 5px;
+    }
+    .banner-right-con div:nth-child(2) span{
+        margin-left: 5px;
+    }
+
+}
+@media screen and (max-width: 767px){
+    .banner-right-con .social-icons{
+        display: none!important;
+    }
+    .banner-right-con{
+        border-bottom: 1px solid #c3c7ca;
+        padding-bottom: 15px;
+    }
+    .banner-left-sec{
+        padding-top: 10px;
+    }
+    .banner-heading {
+        width: 474px;
+        top: 25%;
+    }
+    .google-font-heading form input:last-child {
+        width: 35%;
+    }
+    .google-font-heading form input:first-child {
+        width: 65%;
+    }
+    .services-info {
+        padding-top: 60px;
+    }
+    .bold-sec{
+        width: 69%;
+    }
+    body > div.main-header.float-left.w-100 > div > div.row > div.col-lg-3{
+        order: 2;
+    }
+    body > div.main-header.float-left.w-100 > div > div.row > div.col-lg-9{
+        order: 1;
+    }
+
+}
+@media screen and (max-width: 575px){
+    body > div.main-header.float-left.w-100 > div > div.row > div.col-lg-3{
+        order: 2;
+    }
+    body > div.main-header.float-left.w-100 > div > div.row > div.col-lg-9{
+        order: 1;
+    }
+    body > div.main-header{
+        padding-top: 16px;
+    }
+
+    .banner-left-sec > a{
+        text-align: center;
+    }
+    .banner-right-con div:first-child, .banner-right-con div:nth-child(2),.banner-right-con{
+        padding-right: 0;
+    }
+    .services-form-btn{
+        text-align: center;
+    }
+    .main-banner-con{
+        height: 580px;
+    }
+    .banner-heading h1 {
+        font-size: 46px;
+    }
+    .banner-heading {
+        width :650px;
+    }
+    .banner-heading h1{
+        line-height: 34px;
+        font-size: 24px;
+    }
+    .banner-heading {
+        width: 258px;
+    }
+    .banner-heading p{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .google-font-heading h2{
+        width: 268px;
+        margin: 0  auto 7px auto;
+        font-size: 20px;
+    }
+    .google-font-heading p {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 19px;
+    }
+    .google-font-heading form input:last-child{
+        width: 100%;
+        margin-left: 1px;
+    }
+    .google-font-heading form input:first-child{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .services-heading h2 {
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .services-heading p {
+        margin-bottom: 0;
+        max-width: 350px;
+        font-size: 16px;
+    }
+    .services-heading {
+        margin-bottom: 20px;
+    }
+    .services-form-con input, .services-form-con textarea {
+        width: 100%;
+        padding: 10px 10px;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    .services-form-con p{
+        line-height: 18px;
+        font-size: 12px;
+    }
+    .services-info h4 {
+        font-size: 20px;
+    }
+    .bold-sec h5 {
+        font-size: 26px;
+    }
+    .bold-sec h6 {
+        font-size: 14px;
+    }
+    .bold-sec {
+        padding: 12px 21px 12px 10px;
+        width: 100%;
+    }
+    .services-info h4 {
+        font-size: 16px;
+        padding-left: 10px;
+    }
+    .contact figure{
+        height: 29px;
+        width: 29px;
+    }
+    .contact span {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .main-footer-sec ul li {
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 16px;
+    }
+    .main-services-sec{
+        padding-top: 30px;
+    }
+    .services-form-con input, .services-form-con textarea {
+        padding: 10px 10px;
+        margin-bottom: 10px;
+        font-size: 12px;
+    }
+    .banner-heading {
+        width: 315px;
+    }
+    .services-info:after{
+        bottom: -49px;
+        width: 215px;
+        height: 240px;
+    }
+    .main-footer-sec {
+        padding-top: 35px;
+        padding-bottom: 25px;
+    }
+}

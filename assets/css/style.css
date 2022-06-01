@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    max-width: 1560px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-header{
+    background: url("../images/banner-bg.jpg") no-repeat center;
+    background-size: cover;
+    padding-top: 20px;
+    z-index: -1;
+}
+.banner-right-con div:first-child span,
+.banner-right-con div:nth-child(2) span{
+    font-family: HelveticaNeueLight;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.banner-right-con div:first-child,
+.banner-right-con div:nth-child(2){
+    padding-right: 30px;
+}
+.social-icons a{
+    float: left;
+    height: 36px;
+    width: 36px;
+    border: 1px solid #777777;
+    border-radius: 4px;
+}
+.social-icons a:nth-child(2){
+    margin:0 10px;
+}
+/*bannersec start*/
+.main-banner-con{
+    height: 900px;
+}
+.banner-heading{
+    width: 1076px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -30%);
+}
+.banner-heading h1{
+    line-height: 60px;
+    font-family: HelveticaNeueBold;
+}
+.banner-heading p{
+    line-height: 40px;
+    font-size: 30px;
+    font-family: HelveticaNeueLight;
+}
+/*bannersec ended*/
+/*google font sec start*/
+.main-google-font-sec{
+    padding-bottom: 150px;
+}
+.google-font-heading{
+    padding: 60px 90px;
+    box-shadow: 0px 0px 30px 26px rgba(0,0,0,0.11);
+    -webkit-box-shadow: 0px 0px 30px 26px rgba(0,0,0,0.11);
+    -moz-box-shadow: 0px 0px 30px 26px rgba(0,0,0,0.11);
+    margin-top: -169px;
+    background: #fff;
+}
+.google-font-heading h2{
+    margin-bottom: 34px;
+    font-family: HelveticaNeueLight;
+}
+.google-font-heading p{
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 41px;
+    font-family: HelveticaNeueLight;
+}
+.google-font-heading form input:first-child{
+    width: 80%;
+    padding: 24px 20px 21px 20px;
+    font-size: 18px;
+    border: 1px solid #e9e9e9;
+    font-family: HelveticaNeueLight;
+}
+.google-font-heading form input:first-child:focus{
+    outline: none;
+}
+.google-font-heading form input:first-child::placeholder{
+    color: #cac9c9;
+}
+.google-font-heading form input:last-child{
+    width: 20%;
+    border: none;
+    font-size: 24px;
+    margin-left: -7px;
+    font-family: HelveticaNeue;
+    padding: 17px 20px 20px 20px;
+}
+/*google font sec ended*/
+/*main services sec start*/
+.main-services-sec{
+    background: url("../images/services-bg.jpg") no-repeat center;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 114px;
+}
+.services-heading{
+    margin-bottom: 60px;
+}
+.services-heading h2{
+    margin-bottom: 40px;
+    font-family: HelveticaNeue;
+}
+.services-heading p{
+    margin-bottom: 40px;
+    max-width: 849px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: HelveticaNeueLight;
+}
+.services-form-con input,
+.services-form-con textarea{
+    width: 100%;
+    padding: 23px 20px;
+    border: 1px solid #d7d7d7;
+    margin-bottom: 20px;
+    font-size: 18px;
+    resize: none;
+    font-family: HelveticaNeueLight;
+}
+.services-form-con input:focus,
+.services-form-con textarea:focus{
+    outline: none;
+}
+.services-form-con input::placeholder,
+.services-form-con textarea::placeholder{
+    color: #909090;
+}
+.services-form-con button{
+    font-size: 24px;
+    padding: 19px 76px;
+    border: 1px solid #0a44ab;
+    font-family: HelveticaNeue;
+}
+.services-form-con p{
+    color: #909090;
+    line-height: 30px;
+    font-family: HelveticaNeueLight;
+}
+.services-info{
+    padding-top: 60px;
+}
+.services-info:after{
+    content: "";
+    bottom: -115px;
+    right: 0;
+    position: absolute;
+    background: url("../images/services-after-img.png") no-repeat;
+    width: 502px;
+    height: 560px;
+}
+.services-info h4 {
+    color: #2d2d2d;
+    line-height: 30px;
+    font-family: BarokahBold;
+    padding-left: 40px;
+}
+.bold-sec{
+    padding: 18px 60px 18px 39px;
+    margin-bottom: 40px;
+}
+.bold-sec h5{
+    font-size: 48px;
+    font-family: HelveticaNeueLight;
+}
+.bold-sec h6{
+    font-size: 22px;
+    line-height: 30px;
+    font-family: HelveticaNeueLight;
+}
+.contact figure{
+    border: 1px solid #0a44ab;
+    height: 41px;
+    width: 41px;
+    border-radius: 100%;
+}
+.contact span{
+    color: #2d2d2d;
+    font-size: 22px;
+    line-height: 40px;
+    margin-left: 10px;
+    font-family: HelveticaNeue;
+}
+/*main services sec ended*/
+/*main footer start*/
+.main-footer-sec{
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.main-footer-sec ul li{
+    border-left: 2px solid #8d8d8d;
+    padding-left: 27px;
+    padding-right: 27px;
+    font-family: HelveticaNeueLight;
+    font-size: 18px;
+}
+.main-footer-sec ul li:first-child{
+    border-left: none;
+}
+/*main footer ended*/
