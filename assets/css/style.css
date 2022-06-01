@@ -14,6 +14,9 @@
     padding-top: 20px;
     z-index: -1;
 }
+.banner-right-con{
+    justify-content: end;
+}
 .banner-right-con div:first-child span,
 .banner-right-con div:nth-child(2) span{
     font-family: HelveticaNeueLight;
